@@ -56,8 +56,12 @@ li a {
     text-decoration: none;
 }
 
+a:visited {
+    color: black;
+}
+
 a:hover {
-    color: white;
+    color: #FFF;
 }
 
 .mid-bar {
@@ -77,21 +81,25 @@ a:hover {
 .words1 {
     display: inline-block;
     width: 49%;
+    height: 485px;
+    margin-top: 2px;
     float: left;
     margin-left: 5px;
     background: hsla(11, 42%, 32%, .7);
     border: 2px ridge hsla(11, 32%, 42%, .5);
-    color: white;
+    color: #FFF;
 }
 
 .words2 {
     display: inline-block;
     width: 49%;
+    height: 485px;
+    margin-top: 2px;
     float: right;
     margin-right: 5px;
     background: hsla(11, 42%, 32%, .7);
     border: 2px ridge hsla(11, 32%, 42%, .5);
-    color: white;
+    color: #FFF;
 }
 
 .footer {
@@ -104,10 +112,60 @@ a:hover {
 
 .footer-col {
     width: 60px;
-    margin: auto;
-    border: 1px dashed blue;;
+    margin: 0 auto;
+    margin-top: 12px;
 }
 
 .icon {
-    color: hsla(11, 32%, 42%, 1.0);
+    color: hsla(11, 42%, 32%, 1);
+}
+
+.copy {
+    font-size: 14px;
+    text-align: center;
+}
+
+/*about/contact page only below*/
+
+.col1 {
+    display: inline-block;
+    width: 49%;
+    height: 75%;
+    margin-top: 2px;
+    float: left;
+    margin-left: 5px;
+    background: hsla(11, 42%, 32%, .7);
+    border: 2px ridge hsla(11, 32%, 42%, .5);
+    color: #FFF;
+}
+
+.about-img {
+    height: 404px;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.col2 {
+    display: inline-block;
+    width: 49%;
+    height: 75%;
+    margin-top: 2px;
+    float: right;
+    margin-right: 5px;
+    background: hsla(11, 42%, 32%, .7);
+    border: 2px ridge hsla(11, 32%, 42%, .5);
+    color: #FFF;
+}
+
+.map {
+    width: 495px;
+}
+
+.form {
+    height: 600px;
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
 }
